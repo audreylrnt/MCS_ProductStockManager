@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EditData"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        android:textAlignment="center"
+        android:textSize="32sp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etname"
+        android:textSize="20sp"
+        android:hint="Product name"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Description"
+        android:textAlignment="center"
+        android:textSize="32sp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etdesc"
+        android:textSize="20sp"
+        android:gravity="top|left"
+        android:hint="Product description"
+        android:inputType="textMultiLine"
+        android:lines="5"
+        android:scrollbars="vertical"
+        android:scrollbarStyle="insideInset"
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Quantity"
+        android:textSize="32sp"
+        android:textAlignment="center"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etqty"
+        android:textSize="20sp"
+        android:hint="Product quantity"
+        android:inputType="number"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:paddingRight="80dp"
+        android:paddingLeft="80dp"
+        android:text="submit"
+        android:layout_marginTop="30dp"
+        android:id="@+id/btnsubmit"
+
+        />
+
+</LinearLayout>
